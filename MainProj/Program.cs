@@ -12,13 +12,15 @@ namespace MainProj
             stack.Push(1);
             stack.Push(2);  
             stack.Push(3);
-
+            Console.WriteLine(stack);
             Console.WriteLine(stack.Peek());
             Console.WriteLine(stack.Pop());
 
             queue.Enqueue(1);
             queue.Enqueue(2);   
             queue.Enqueue(3);
+
+            Console.WriteLine(queue);
 
             Console.WriteLine(queue.Peek());
             Console.WriteLine(queue.Dequeue());
@@ -27,13 +29,13 @@ namespace MainProj
             MyBinaryTree<int> tree = new MyBinaryTree<int>();
 
             // Add
-            tree.Add(50);
-            tree.Add(30);
-            tree.Add(70);
-            tree.Add(20);
-            tree.Add(40);
-            tree.Add(60);
-            tree.Add(80);
+            tree.Add(5);
+            tree.Add(3);
+            tree.Add(8);
+            tree.Add(9);
+            tree.Add(2);
+            tree.Add(6);
+            tree.Add(7);
 
             //In-Order 
             foreach (var item in tree.InOrder())
@@ -41,11 +43,13 @@ namespace MainProj
                 Console.Write(item + " ");
             }
 
+            Console.WriteLine( );
             //Pre-Order 
             foreach (var item in tree.PreOrder())
             {
                 Console.Write(item + " ");
             }
+            Console.WriteLine();
 
             //Post-Order Traversal
             foreach (var item in tree.PostOrder())
@@ -54,19 +58,21 @@ namespace MainProj
             }
 
             // Remove
-            tree.Remove(20);
+            tree.Remove(2);
 
-            tree.Remove(30);
+            tree.Remove(3);
 
-            tree.Remove(50);
+            tree.Remove(5);
 
-            //In-Order After Removals
-            foreach (var item in tree)
+            Console.WriteLine();
+
+            //PreOrder After Removals
+            foreach (var item in tree.PreOrder())
             {
                 Console.Write(item + " ");
             }
 
-           
+
         }
     }
 }

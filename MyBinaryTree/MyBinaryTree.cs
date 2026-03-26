@@ -10,6 +10,27 @@ public class MyBinaryTree<T> : IEnumerable<T>
     private MyBinaryTreeNode<T> Root { get; set; }
     private int Count;
 
+    #region Find
+    private MyBinaryTreeNode<T> Find(T value)
+    {
+        return Find(Root, value);
+    }
+    private MyBinaryTreeNode<T> Find(MyBinaryTreeNode<T> node, T value)
+    {
+        if (node == null)
+            return null;
+        int compare = value.CompareTo(node.Value);
+        if (compare == 0)
+            return node;
+        else if (compare < 0)
+            return Find(node.Left, value);
+
+        return Find(node.Right, value);
+
+    }
+
+    #endregion
+
     #region Add
 
     public void Add(T value)
@@ -18,7 +39,7 @@ public class MyBinaryTree<T> : IEnumerable<T>
         Count++;
     }
 
-    private MyBinaryTreeNode<T> Add(MyBinaryTreeNode<T> node, T value)
+    private static MyBinaryTreeNode<T> Add(MyBinaryTreeNode<T> node, T value)
     {
         if (node == null)
             return new MyBinaryTreeNode<T>(value);
