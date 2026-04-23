@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cNalM2Z9oh7rmXZArO10uFHP1a76AQyb1q4X/XxOIWPTCETCp3aJTe/w4esXFt+YhntfUlbgQmY3aDzFYQM6Ew==",
+  "dgSpecHash": "NA7eU4isrCU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\source\\repos\\LilitMikayelyan8\\LilitMikayelyan8\\MyDataStructures\\MyHashTableAlgorithms\\MyHashTableAlgorithms.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Student\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyHashTableAlgorithms\\MyHashTableAlgorithms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

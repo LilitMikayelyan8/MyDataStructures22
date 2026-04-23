@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33627.172
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11709.299 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLinkedListProj", "MyLinkedListProj\MyLinkedListProj.csproj", "{3DDBC450-36E7-48AF-A00C-34F88AF73404}"
 EndProject
@@ -20,6 +20,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySetProjj", "MySetProjj\MySetProjj.csproj", "{1CA70033-1DE9-424C-8091-B4AAE99564D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWPFApp", "MyWPFApp\MyWPFApp.csproj", "{ED5A1FAF-C59D-4E6F-BB31-528D2D464C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBubbleSort", "MyBubbleSort\MyBubbleSort.csproj", "{90BC760E-836F-42B5-BC3C-38779686A944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInsertionSort", "MyInsertionSort\MyInsertionSort.csproj", "{3BB8F7F4-FFE2-4B3E-9432-8D8485B15F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelectionSort", "MySelectionSort\MySelectionSort.csproj", "{D7A4E052-2D3E-435B-8190-B8D6E769AA25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{ED5A1FAF-C59D-4E6F-BB31-528D2D464C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5A1FAF-C59D-4E6F-BB31-528D2D464C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5A1FAF-C59D-4E6F-BB31-528D2D464C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BC760E-836F-42B5-BC3C-38779686A944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BC760E-836F-42B5-BC3C-38779686A944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BC760E-836F-42B5-BC3C-38779686A944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BC760E-836F-42B5-BC3C-38779686A944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB8F7F4-FFE2-4B3E-9432-8D8485B15F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB8F7F4-FFE2-4B3E-9432-8D8485B15F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB8F7F4-FFE2-4B3E-9432-8D8485B15F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB8F7F4-FFE2-4B3E-9432-8D8485B15F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A4E052-2D3E-435B-8190-B8D6E769AA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A4E052-2D3E-435B-8190-B8D6E769AA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A4E052-2D3E-435B-8190-B8D6E769AA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A4E052-2D3E-435B-8190-B8D6E769AA25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
