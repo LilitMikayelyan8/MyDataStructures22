@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySelectionSort", "MySelect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMergeSort", "MyMergeSort\MyMergeSort.csproj", "{069841A8-E8FC-4773-B537-A08A68AF5EC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyChessProj", "MyChessProj\MyChessProj.csproj", "{EAF55D52-3466-4F3A-83EE-8C873D2FAA5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{069841A8-E8FC-4773-B537-A08A68AF5EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069841A8-E8FC-4773-B537-A08A68AF5EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069841A8-E8FC-4773-B537-A08A68AF5EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF55D52-3466-4F3A-83EE-8C873D2FAA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF55D52-3466-4F3A-83EE-8C873D2FAA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF55D52-3466-4F3A-83EE-8C873D2FAA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF55D52-3466-4F3A-83EE-8C873D2FAA5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
