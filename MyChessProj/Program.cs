@@ -81,22 +81,80 @@ bool CheckTheKnight(MyPointer p1, MyPointer p2)
     return false;
 }
 
-int CountTheSteps(MyPointer p1, MyPointer p2) 
-{
 
-    int[,] matrix = new int[8, 8];
+int[,] CreateMatrix(int matrixSize)
+{
+    int[,] matrix = new int [matrixSize, matrixSize];
+    for     (int i = 0;i < matrixSize; i++)
+    {
+        for (int j = 0; j < matrixSize; j++)
+        {
+            matrix[i, j] = -1;
+        }
+    }
+    return matrix;
+}
+
+void printMatrix(int[,] matrix)
+{
     for (int i = 0; i < 8; i++)
     {
         for (int j = 0; j < 8; j++)
         {
-            matrix[i, j] = '0';
-            
-            Console.Write(matrix[i, j].ToString() + '\t');
+            Console.Write(matrix[i,j].ToString(), '\t');
         }
-        Console.WriteLine();
     }
+    Console.WriteLine();
 
-    return 0;
-    
 }
 
+void FillTheNumbers(int[,] matrix, int x, int y, int value)
+{
+    try
+    {
+        matrix[x - 2, y - 1] = value;
+        matrix[x + 2, y - 1] = value;
+        matrix[x - 2, y + 1] = value;
+        matrix[x + 2, y + 1] = value;
+
+        matrix[x - 1, y - 2] = value;
+        matrix[x + 1, y - 2] = value;
+        matrix[x - 1, y + 2] = value;
+        matrix[x + 1, y + 2] = value;
+        printMatrix(matrix);
+    }
+    catch (IndexOutOfRangeException) { }
+    
+
+    
+
+}
+
+void CountTheSteps(MyPointer p1, MyPointer p2)
+{
+    
+    int count = 2;
+    int[,] matrix = CreateMatrix(8);
+    matrix[p1.x - 1, p1.y - 1] = 0;
+    printMatrix(matrix);
+    FillTheNumbers(matrix, p1.x, p1.y, 1);
+
+    for (int i = 0; i < 8; i++)
+    {
+        for (int j = 0; j < 8; j++)
+        {
+            if (matrix[i, j] > 0)
+            {
+                continue;
+            }
+            FillTheNumbers(matrix, i, j, count);
+            count++;
+        }
+    }
+
+
+    //return count;
+}
+MyPointer p5 = new MyPointer(4, 2);
+MyPointer p6 = new MyPointer(5, 7);
+CountTheSteps(p5, p6);
