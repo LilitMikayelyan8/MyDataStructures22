@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyHashTableAlgorithms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b10e1429123a5d8b6eead6b4bbe44aa63ec51745")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2665d18b47e13c531d4b24a350a6967c83cd50cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyHashTableAlgorithms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyHashTableAlgorithms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
