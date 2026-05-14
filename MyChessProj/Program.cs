@@ -36,6 +36,7 @@ using MyChessProj;
 //}
 
 
+
 //void PrintMatrixAuxiliaryDiagonal(int matrixSize)
 //{
 //    char[,] matrix = new char[matrixSize, matrixSize];
@@ -164,7 +165,28 @@ bool CheckTheBishop(MyPointer p1, MyPointer p2)
 {
     int a = Math.Abs(p1.x - p2.x);
     int b = Math.Abs(p1.y - p2.y);
-    if (a==b)
+    if (a == b)
         return true;
     return false;
+}
+
+
+Console.WriteLine(CheckTheBishopWithEx(new MyPointer(1, 1), new MyPointer(5, 3), new MyPointer(4, 4)));
+
+bool CheckTheBishopWithEx(MyPointer start, MyPointer end, MyPointer ex)
+{
+    if (!CheckTheBishop(start, end))
+        return false;
+    else if (CheckTheBishop(start, end) && !CheckTheBishop(start, ex))
+    {
+        return true;
+    }
+    else if (CheckTheBishop(start, ex) && CheckTheBishop(ex, end))
+    {
+        return true;
+
+    }
+    
+    return false;
+    
 }
