@@ -1,4 +1,4 @@
-﻿using MyChessProj;
+using MyChessProj;
 
 //PrintMatrixMainDiagonal(8);
 
@@ -81,17 +81,26 @@
 //    return false;
 //}
 
+
+MyPointer p7 = new MyPointer(4, 2);
+MyPointer p8 = new MyPointer(5, 3);
+
+Console.WriteLine(CheckTheBishop(p7, p8));
+
+
+
+
 int[,] matrix = new int[8, 8];
 
 
-    for (int i = 0; i < 8; i++)
-        for (int j = 0; j < 8; j++)
-            matrix[i, j] = -1;
+for (int i = 0; i < 8; i++)
+    for (int j = 0; j < 8; j++)
+        matrix[i, j] = -1;
 
-    MyPointer p5 = new MyPointer(4, 2);
-    MyPointer p6 = new MyPointer(5, 7);
+MyPointer p5 = new MyPointer(4, 2);
+MyPointer p6 = new MyPointer(5, 7);
 
-    CountTheSteps(p5, p6, matrix);
+CountTheSteps(p5, p6, matrix);
 
 
 static void printMatrix(int[,] matrix)
@@ -135,9 +144,7 @@ static void CountTheSteps(MyPointer start, MyPointer target, int[,] matrix)
                         int newX = x + moves[i, 0];
                         int newY = y + moves[i, 1];
 
-                        if (newX >= 0 && newX < 8 &&
-                            newY >= 0 && newY < 8 &&
-                            matrix[newX, newY] == -1)
+                        if (newX >= 0 && newX < 8 && newY >= 0 && newY < 8 && matrix[newX, newY] == -1)
                         {
                             matrix[newX, newY] = matrix[x, y] + 1;
                             changed = true;
@@ -147,6 +154,17 @@ static void CountTheSteps(MyPointer start, MyPointer target, int[,] matrix)
             }
         }
     }
-
     printMatrix(matrix);
+    Console.WriteLine(matrix[target.x, target.y]);
+}
+
+
+
+bool CheckTheBishop(MyPointer p1, MyPointer p2)
+{
+    int a = Math.Abs(p1.x - p2.x);
+    int b = Math.Abs(p1.y - p2.y);
+    if (a==b)
+        return true;
+    return false;
 }
