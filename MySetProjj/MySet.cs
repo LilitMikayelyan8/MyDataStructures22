@@ -62,7 +62,10 @@ public class Set<T> : IEnumerable<T>
     public Set<T> Union(Set<T> other)
     {
         Set<T> result = new Set<T>();
+
+        result.AddRangeSkipDuplicates(_items);
         result.AddRangeSkipDuplicates(other._items);
+
         return result;
     }
 
@@ -88,10 +91,15 @@ public class Set<T> : IEnumerable<T>
             throw new ArgumentNullException(nameof(other));
 
         Set<T> result = new Set<T>();
+
         foreach (T item in _items)
         {
-            result.Remove(item);
+            if (!other.Contains(item))
+            {
+                result.Add(item);
+            }
         }
+
         return result;
     }
 

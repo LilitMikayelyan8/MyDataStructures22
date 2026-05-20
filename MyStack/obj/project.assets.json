@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Users\\hmika\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
+      "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
       "projectName": "MyStack",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\obj\\",
+      "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
+      "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -57,10 +57,11 @@
       },
       "frameworks": {
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj"
             }
           }
         }
@@ -79,6 +80,7 @@
     },
     "frameworks": {
       "net7.0": {
+        "framework": "net7.0",
         "targetAlias": "net7.0",
         "imports": [
           "net461",
@@ -91,26 +93,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

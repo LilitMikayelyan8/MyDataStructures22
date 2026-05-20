@@ -9,11 +9,10 @@ namespace MyWPFApp
     public class Student:IComparable<Student>
     {
         public Student(int id, string name, Gender gender)
-        { 
-            StudentId=id;
-            name = name;
+        {
+            StudentId = id;
+            Name = name;
             Gender = gender;
-
         }
 
         public int StudentId { get; private set; }
@@ -22,14 +21,10 @@ namespace MyWPFApp
 
         public Gender Gender { get; private set; }
 
-        public int CopareTo(Student other)
+        public int CompareTo(Student other)
         {
             return StudentId.CompareTo(other.StudentId);
         }
-
-        public int CompareTo(Student? other)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
+

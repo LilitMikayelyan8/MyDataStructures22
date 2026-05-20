@@ -5,15 +5,76 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyWPFApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="450"
+        Width="800"
+        Loaded="Window_Loaded">
+
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Height="23" Margin="658,40,0,0" VerticalAlignment="Top" Width="121"/>
-        <ComboBox HorizontalAlignment="Left" Margin="60,40,0,0" Name="leftSet" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="250,41,0,0" Name ="operation" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="460,41,0,0" Name ="righttSet" VerticalAlignment="Top" Width="120"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Height="NaN" Margin="54,118,614,117" Width="NaN" SelectionChanged="ListBox_SelectionChanged"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Height="NaN" Margin="453,118,220,117" Width="NaN"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Height="NaN" Margin="638,118,21,117" Width="NaN"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170*"/>
+            <ColumnDefinition Width="631*"/>
+        </Grid.ColumnDefinitions>
+
+        <ComboBox x:Name="LeftSet"
+                  HorizontalAlignment="Left"
+                  Margin="10,32,0,0"
+                  VerticalAlignment="Top"
+                  Width="173"
+                  Height="32"
+                  SelectionChanged="LeftMySet_SelectionChanged"/>
+
+        <ComboBox x:Name="Operation"
+                  HorizontalAlignment="Left"
+                  Margin="57,32,0,0"
+                  VerticalAlignment="Top"
+                  Width="173"
+                  Height="32"
+                  Grid.Column="1"/>
+
+        <ComboBox x:Name="RightSet"
+                  HorizontalAlignment="Left"
+                  Margin="256,32,0,0"
+                  VerticalAlignment="Top"
+                  Width="173"
+                  Height="32"
+                  Grid.Column="1"
+                  SelectionChanged="RightMySet_SelectionChanged"/>
+
+        <Button x:Name="evaluateButton"
+                Content="Evaluate"
+                HorizontalAlignment="Left"
+                Margin="448,32,0,0"
+                VerticalAlignment="Top"
+                Width="173"
+                Height="32"
+                Grid.Column="1"
+                Click="evaluateButton_Click"/>
+
+        <ListBox x:Name="LeftMember"
+                 HorizontalAlignment="Left"
+                 Height="346"
+                 Margin="10,88,0,0"
+                 VerticalAlignment="Top"
+                 Width="173"
+                 SelectionChanged="ListBox_SelectionChanged"/>
+
+        <ListBox x:Name="RightMember"
+                 HorizontalAlignment="Left"
+                 Height="346"
+                 Margin="256,88,0,0"
+                 VerticalAlignment="Top"
+                 Width="173"
+                 Grid.Column="1"/>
+
+        <ListBox x:Name="ResultSet"
+                 HorizontalAlignment="Left"
+                 Height="346"
+                 Margin="452,88,0,0"
+                 VerticalAlignment="Top"
+                 Width="168"
+                 Grid.Column="1"/>
 
     </Grid>
 </Window>

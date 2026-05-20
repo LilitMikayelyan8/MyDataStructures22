@@ -1,16 +1,12 @@
-﻿using System.Linq.Expressions;
-
-namespace MyMergeSort
+﻿namespace MyMergeSort
 {
     public class MyMergeSort<T>
-        where T: IComparable<T>
+        where T : IComparable<T>
     {
         public void Sort(T[] items)
         {
             if (items.Length <= 1)
-            {
                 return;
-            }
 
             int leftSize = items.Length / 2;
             int rightSize = items.Length - leftSize;
@@ -23,38 +19,38 @@ namespace MyMergeSort
 
             Sort(left);
             Sort(right);
+
             Merge(items, left, right);
-
         }
-        private void Merge(T[] items, T[] left, T[] right) 
+
+        private void Merge(T[] items, T[] left, T[] right)
         {
-            int leftIndex = 0;
-            int rightIndex = 0;
-            int targetIndex = 0;
+            int i = 0; // left index
+            int j = 0; // right index
+            int k = 0; // result index
 
-            int remaining = left.Length + right.Length;
-
-            while (remaining > 0)
+            while (i < left.Length && j < right.Length)
             {
-                if (leftIndex >= left.Length)
+                if (left[i].CompareTo(right[j]) <= 0)
                 {
-                    Assign(items, targetIndex, right[rightIndex++]);
+                    items[k++] = left[i++];
                 }
-                else if (rightIndex >= right.Length) 
+                else
                 {
-                    Assign(items, targetIndex, left[leftIndex++]);
-
+                    items[k++] = right[j++];
                 }
-                else if (Compare(left[leftIndex], right[rightIndex]) < 0)
-                {
-                    Assign(items, targetIndex, left[leftIndex++]);
-                }
+            }
 
-                targetIndex++;
-                remaining--;
+            
+            while (i < left.Length)
+            {
+                items[k++] = left[i++];
+            }
 
+            while (j < right.Length)
+            {
+                items[k++] = right[j++];
             }
         }
-       
     }
 }

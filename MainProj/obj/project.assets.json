@@ -128,23 +128,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "C:\\Users\\hmika\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
+      "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
       "projectName": "MainProj",
-      "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
-      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\obj\\",
+      "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
+      "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -158,25 +158,26 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj"
             },
-            "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj": {
-              "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj"
+            "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj": {
+              "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj"
             }
           }
         }
@@ -195,6 +196,7 @@
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "imports": [
           "net461",
@@ -212,7 +214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

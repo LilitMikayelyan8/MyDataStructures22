@@ -1,8 +1,7 @@
-﻿using System;
+﻿using MySetProjj;
+using MyWPFApp;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,75 +11,140 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MySetProjj;
 
 namespace MyWPFApp
 {
-  
     public partial class MainWindow : Window
     {
         Set<Student> _men = new Set<Student>();
         Set<Student> _women = new Set<Student>();
-
-        Set<Student> _reading= new Set<Student>();
+        Set<Student> _reading = new Set<Student>();
         Set<Student> _writing = new Set<Student>();
         Set<Student> _arithmetic = new Set<Student>();
 
-        Dictionary<string, Set<Student>> allSets=new Dictionary<string, Set<Student>>();
-
+        Dictionary<string, Set<Student>> allSets = new Dictionary<string, Set<Student>>();
         public MainWindow()
         {
-            
-            Student Yura = new Student(1, "Yura", Gender.Male);
-            Student Eghiazar = new Student(2, "Eghiazar", Gender.Male);
-            Student Martin = new Student(3, "Martin", Gender.Male);
-            _men.AddRange(new Student[] { Yura, Eghiazar, Martin });
+            Student james = new Student(1, "James", Gender.Male);
+            Student robert = new Student(2, "Robert", Gender.Male);
+            Student john = new Student(3, "John", Gender.Male);
+            Student mark = new Student(4, "Mark", Gender.Male);
+            Student otherMark = new Student(5, "other", Gender.Male);
+            _men.AddRange(new[] { james, robert, john, mark, otherMark });
 
-            Student Milena = new Student(4, "Milena", Gender.Female);
-            Student Lilit = new Student(5, "Lilit", Gender.Female);
-            Student Lusine = new Student(6, "Lusine", Gender.Female);
-            Student Maria = new Student(7, "Maria", Gender.Female);
-            _women.AddRange(new Student[] { Milena, Lilit, Lusine, Maria });
+            Student liz = new Student(6, "Elizabeth", Gender.Female);
+            Student amy = new Student(7, "Amy", Gender.Female);
+            Student eve = new Student(8, "Evelyn", Gender.Female);
+            _women.AddRange(new[] { liz, amy, eve });
 
-            _reading.AddRange(new Student[] { Lilit, Lusine, Eghiazar});
-            _writing.AddRange(new Student[] { Lilit, Milena, Yura });
-            _arithmetic.AddRange(new Student[] { Maria, Martin, Eghiazar });
+            _reading.AddRange(new[] { james, robert, liz });
+            _writing.AddRange(new[] { robert, mark, amy, eve, liz });
+            _arithmetic.AddRange(new[] { john, mark, otherMark, amy });
 
-            allSets.Add("Men", _men);
-            allSets.Add("Women", _women);
-            allSets.Add("Reading", _reading);
-            allSets.Add("Writing", _writing);
-            allSets.Add("Arithmetic", _arithmetic);
-
-
+            allSets.Add("MEN", _men);
+            allSets.Add("WOMEN", _women);
+            allSets.Add("READING", _reading);
+            allSets.Add("WRITING", _writing);
+            allSets.Add("ARITHMETIC", _arithmetic);
             InitializeComponent();
         }
 
-
-        private void Window_Loaded(object sender, RoutedEventArgs e) 
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            foreach (string name in allSets.Keys) 
+            foreach (string name in allSets.Keys)
             {
-                leftSet.Items.Add(name);
-                rightSet.Items.Add(name);
+                LeftSet.Items.Add(name);
+                RightSet.Items.Add(name);
             }
-
-            operation.Items.Add("UNION");
-            operation.Items.Add("INTERSECTION");
-            operation.Items.Add("DIFFERENCE");
-            operation.Items.Add("SYMETRIC DIFF");
-
-        }
-        private void leftSet_SelectionChanged(object sender,SelectionChangedEventArgs e)
-        {
-
+            Operation.Items.Add("UNION");
+            Operation.Items.Add("INTERSECTION");
+            Operation.Items.Add("DIFFERENCE");
+            Operation.Items.Add("SYMMETRIC DIFFERENCE");
         }
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            var listBox = sender as ListBox;
+            var selectedItem = listBox.SelectedItem;
+
+            MessageBox.Show(selectedItem.ToString());
+
 
         }
 
+        private void LeftMySet_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
+            LeftMember.Items.Clear();
+            if (e.AddedItems.Count > 0)
+            {
+                DisplayMySetData(GetMySetByName(e.AddedItems[0].ToString()), LeftMember);
+            }
+
+
+        }
+
+        private void RightMySet_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            RightMember.Items.Clear();
+            if (e.AddedItems.Count > 0)
+            {
+                DisplayMySetData(GetMySetByName(e.AddedItems[0].ToString()), RightMember);
+            }
+
+
+        }
+
+        private Set<Student> GetMySetByName(string? name)
+        {
+            return allSets[name];
+        }
+
+        private void DisplayMySetData(Set<Student> set, ListBox listBox)
+        {
+            listBox.Items.Clear();
+            foreach (var student in set)
+            {
+                listBox.Items.Add(student.Name);
+            }
+        }
+
+        private void evaluateButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (LeftSet.SelectedItem == null || RightSet.SelectedItem == null || Operation.SelectedItem == null)
+            {
+                MessageBox.Show("Please select both sets and operation!");
+                return;
+            }
+
+            var left = GetMySetByName(LeftSet.SelectedItem.ToString());
+            var right = GetMySetByName(RightSet.SelectedItem.ToString());
+            var op = Operation.SelectedItem.ToString();
+
+            Set<Student> result = new Set<Student>();
+
+            switch (op)
+            {
+                case "UNION":
+                    result = left.Union(right);
+                    break;
+
+                case "INTERSECTION":
+                    result = left.Intersection(right);
+                    break;
+
+                case "DIFFERENCE":
+                    result = left.Difference(right);
+                    break;
+
+                case "SYMMETRIC DIFFERENCE":
+                    result = left.SymmetricDifference(right);
+                    break;
+            }
+
+            ResultSet.Items.Clear();
+            DisplayMySetData(result, ResultSet);
+        }
     }
 }

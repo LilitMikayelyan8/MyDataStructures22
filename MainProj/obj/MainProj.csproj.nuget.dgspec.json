@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj": {}
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
         "projectName": "MainProj",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\MainProj.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MainProj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,25 +31,26 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj"
               },
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj"
               },
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj"
               },
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj"
               },
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj"
               },
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj"
               }
             }
           }
@@ -68,6 +69,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -85,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -363,20 +365,20 @@
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj",
         "projectName": "MyBinaryTree",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\MyBinaryTree.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBinaryTree\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -390,6 +392,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -408,6 +411,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -425,7 +429,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -703,20 +707,20 @@
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj",
         "projectName": "MyBubbleSort",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\MyBubbleSort.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyBubbleSort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -730,6 +734,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -748,6 +753,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -765,7 +771,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1043,20 +1049,20 @@
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj",
         "projectName": "MyInsertionSort",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\MyInsertionSort.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyInsertionSort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1070,6 +1076,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -1088,6 +1095,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1105,7 +1113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1383,20 +1391,20 @@
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj",
         "projectName": "MyLinkedListProj",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1410,6 +1418,7 @@
         },
         "frameworks": {
           "net7.0": {
+            "framework": "net7.0",
             "targetAlias": "net7.0",
             "projectReferences": {}
           }
@@ -1428,6 +1437,7 @@
       },
       "frameworks": {
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "imports": [
             "net461",
@@ -1440,43 +1450,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj",
         "projectName": "MyQueue",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\MyQueue.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyQueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1490,10 +1486,11 @@
         },
         "frameworks": {
           "net7.0": {
+            "framework": "net7.0",
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj"
               }
             }
           }
@@ -1512,6 +1509,7 @@
       },
       "frameworks": {
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "imports": [
             "net461",
@@ -1524,43 +1522,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj",
         "projectName": "MySelectionSort",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\MySelectionSort.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MySelectionSort\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1574,6 +1558,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -1592,6 +1577,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -1609,7 +1595,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1887,20 +1873,20 @@
         }
       }
     },
-    "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj": {
+    "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
+        "projectUniqueName": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
         "projectName": "MyStack",
-        "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\obj\\",
+        "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\MyStack.csproj",
+        "packagesPath": "C:\\Users\\hmika\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyStack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hmika\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1914,10 +1900,11 @@
         },
         "frameworks": {
           "net7.0": {
+            "framework": "net7.0",
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
-                "projectPath": "C:\\Users\\Dell\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj"
+              "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj": {
+                "projectPath": "C:\\Users\\hmika\\source\\repos\\LilitMikayelyan8\\MyDataStructures22\\MyLinkedListProj\\MyLinkedListProj.csproj"
               }
             }
           }
@@ -1936,6 +1923,7 @@
       },
       "frameworks": {
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "imports": [
             "net461",
@@ -1948,26 +1936,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

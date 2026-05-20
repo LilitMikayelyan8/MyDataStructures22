@@ -171,22 +171,31 @@ bool CheckTheBishop(MyPointer p1, MyPointer p2)
 }
 
 
-Console.WriteLine(CheckTheBishopWithEx(new MyPointer(1, 1), new MyPointer(5, 3), new MyPointer(4, 4)));
+Console.WriteLine(CheckTheBishopWithEx(new MyPointer(1, 1), new MyPointer(4,4), new MyPointer(5,5)));
 
+bool IsBetween(MyPointer start, MyPointer end, MyPointer ex)
+{
+    if (!CheckTheBishop(start, end))
+        return false;
+
+    if (!CheckTheBishop(start, ex))
+        return false;
+
+    if (!CheckTheBishop(ex, end))
+        return false;
+
+    return
+        (ex.x - start.x) * (end.x - start.x) >= 0 &&
+        (ex.y - start.y) * (end.y - start.y) >= 0 &&
+        Math.Abs(ex.x - start.x) <= Math.Abs(end.x - start.x);
+}
 bool CheckTheBishopWithEx(MyPointer start, MyPointer end, MyPointer ex)
 {
     if (!CheckTheBishop(start, end))
         return false;
-    else if (CheckTheBishop(start, end) && !CheckTheBishop(start, ex))
-    {
-        return true;
-    }
-    else if (CheckTheBishop(start, ex) && CheckTheBishop(ex, end))
-    {
-        return true;
 
-    }
-    
-    return false;
-    
+    if (IsBetween(start, end, ex))
+        return false;
+
+    return true;
 }

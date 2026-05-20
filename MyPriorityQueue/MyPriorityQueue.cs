@@ -1,58 +1,73 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace MyPriorityQueue
 {
     public class MyPriorityQueue<T> : IEnumerable<T>
         where T : IComparable<T>
     {
-        LinkedList<T> _items = new LinkedList<T>;
-        public void Enqueue(T item) 
-        {
-            if (_items.Count == 0)
-                _items.AddLast(item);
-            else 
-            { 
-                var current = _items.Head;
-                while (current != null && current.Value.CompareTo(item)>0) 
-                { 
-                    current = current.Next;
-                }
-                if (current == null)
-                {
+        private LinkedList<T> _items = new LinkedList<T>();
 
-                    _items.AddLast(item);
-                }
-                else 
-                {
-                    _items.AddBefore(current, item);
-                }
-            }
-        }
-        public T Dequeue() 
+        public void Enqueue(T item)
         {
             if (_items.Count == 0)
             {
-                throw new InvalidOperationException("The queue is empty");
+                _items.AddLast(item);
+                return;
             }
 
-            T value = _items.Head.Value;
+            var current = _items.First;
+
+            while (current != null && current.Value.CompareTo(item) > 0)
+            {
+                current = current.Next;
+            }
+
+            if (current == null)
+            {
+                _items.AddLast(item);
+            }
+            else
+            {
+                _items.AddBefore(current, item);
+            }
+        }
+
+        public T Dequeue()
+        {
+            if (_items.Count == 0)
+                throw new InvalidOperationException("The queue is empty");
+
+            T value = _items.First.Value;
             _items.RemoveFirst();
 
             return value;
         }
-        public T Peek() 
-        { 
-        
+
+        public T Peek()
+        {
+            if (_items.Count == 0)
+                throw new InvalidOperationException("The queue is empty");
+
+            return _items.First.Value;
         }
-        public int Count() 
-        { 
-        
+
+        public int Count()
+        {
+            return _items.Count;
         }
-        public void Clear() 
-        { 
-        
+
+        public void Clear()
+        {
+            _items.Clear();
         }
-        public IEnumerator<T> GetEnumerator() { }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return _items.GetEnumerator();
+        }
+
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
